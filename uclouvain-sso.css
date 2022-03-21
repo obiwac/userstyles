@@ -1,0 +1,94 @@
+@-moz-document url-prefix("https://idp.uclouvain.be/idp/profile/SAML2/Redirect/SSO") {
+	/* "My favorite thing about Single Sign On is that I get to sign on 20 times per day."
+	    - Armon Dadgar */
+
+	:root {
+		--gradient: -webkit-linear-gradient(50deg, rgb(172, 167, 255), rgb(60, 34, 255));
+		--gradient-hover: -webkit-linear-gradient(50deg, rgb(60, 34, 255), rgb(172, 167, 255));
+	}
+
+	body, .wrapper {
+		background-color: #000;
+		color: #fff;
+	}
+
+	footer, .container-footer {
+		background-color: #000;
+		color: #000;
+	}
+
+	button, input {
+		border: none !important;
+		border-radius: 12px !important;
+		background-color: #111 !important;
+		color: #fff !important;
+	}
+
+	button {
+		background: var(--gradient) !important;
+		color: #000 !important;
+		font-weight: 700;
+		font-size: 18px !important;
+		width: 150px !important;
+		height: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/*margin-left: 50%;
+		transform: translate(-50%, 0);*/
+	}
+
+	.container {
+		width: 640px;
+	}
+
+	.column.two {
+		margin-left: -50px;
+		margin-top: 50px;
+	}
+
+	input[type='checkbox'] {
+		margin-right: 5px;
+	}
+
+	a {
+		font-weight: 500;
+		font-size: 18px;
+		color: #fff !important;
+	}
+
+	a .item-marker {
+		display: inline-block;
+		transform: translate(0, 8px);
+		font-weight: 900;
+		font-size: 50px;
+		background: -webkit-linear-gradient(50deg, rgb(172, 167, 255), rgb(60, 34, 255));
+		background-clip: text;
+		color: transparent !important;
+	}
+
+	.form-element-wrapper {
+		width: 100%;
+	}
+
+	button:hover, input:hover {
+		background: var(--gradient-hover) !important;
+	}
+
+	img {
+		filter: invert(100%) hue-rotate(-160deg);
+	}
+
+	label {
+		font-weight: 300 !important;
+		margin-left: 10px;
+	}
+
+	legend {
+		font-weight: 800;
+		font-size: 40px !important;
+		background: -webkit-linear-gradient(50deg, rgb(172, 167, 255), rgb(60, 34, 255));
+		background-clip: text;
+		color: transparent !important;
+	}
+}
