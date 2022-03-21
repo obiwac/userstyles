@@ -1,0 +1,80 @@
+@-moz-document domain("freebsd.org") {
+	body {
+		background: #000;
+		color: white;
+	}
+
+	b {
+		/*border-radius: 3px;
+		background-color: #551;
+		color: black;*/
+
+		color: white;
+	}
+
+	i {
+		border-radius: 3px;
+		background-color: #221;
+		color: #fff;
+	}
+
+	a:link, a:link > b, #menu a {
+		text-decoration: none;
+		color: #9cf;
+	}
+
+	a:hover, #menu a:hover {
+		text-decoration: underline dotted;
+	}
+
+	a:visited, #menu a:visited {
+		color: #c9f;
+	}
+
+	.frontdonatecontent a, .frontdonatecontent a:link, .frontdonatecontent a:visited, .frontdonatecontent a:hover, .frontdonatecontent a:active {
+		color: white;
+	}
+
+	input, button, select, #search form #submit, .frontdonateroundbox, #search form #words {
+		background-color: #111;
+		color: white;
+		border-radius: 10px;
+		border: none;
+		padding: 5px 20px 5px 20px;
+	}
+
+	input:hover, select:hover, button:hover, #search form #submit:hover, .frontdonateroundbox:hover, #search form #words:hover {
+		background-color: #221;
+	}
+
+	hr {
+		border: 1px dashed;
+		border-bottom: none;
+		color: #111;
+	}
+
+	h1 {
+		color: white;
+		font-size: 40px;
+		margin: 1.2em 0 0.6em 0;
+	}
+
+	#menu {
+		/*background: #111;*/
+		color: white;
+	}
+
+	#menu ul {
+		border-left: #111 1px solid;
+	}
+
+	.frontdonateroundbox {
+		visibility: hidden;
+		height: 10px;
+	}
+
+	img {
+		filter: brightness(50%) contrast(200%) saturate(50%) hue-rotate(200deg);
+		margin-bottom: 10px;
+	}
+}
