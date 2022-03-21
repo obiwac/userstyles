@@ -1,0 +1,102 @@
+@-moz-document domain("moodle.uclouvain.be") {
+	/* in dire need of a visual overhaul since 1985 ™️ */
+
+	body {
+		background-color: #000;
+		color: #fff;
+	}
+
+	a {
+		color: #9cf;
+	}
+
+	a:visited {
+		color: #c9f;
+	}
+
+	section, .card {
+		background-color: #111 !important;
+		border: none !important;
+
+		border-radius: 12px;
+	}
+
+	.nav-link {
+		color: #fff !important;
+	}
+
+	nav {
+		/*backdrop-filter: blur(50px);
+		background-color: #1116 !important;*/
+
+		background-color: #111 !important;
+	}
+
+	header {
+		margin-top: 20px;
+	}
+
+	span {
+		color: #fff;
+	}
+
+	.icon:not(.fa-bars) {
+		/* filter: invert(1); */
+	}
+
+	input, button, .fhs-tooltip {
+		border: none !important;
+		color: #fff !important;
+		background-color: #1b1b1b !important;
+		border-radius: 12px !important;
+	}
+
+	input:hover, button:hover, .fhs-tooltip:hover {
+		background-color: #332 !important;
+	}
+
+	#searchform_search {
+		margin-right: 10px;
+	}
+
+	h1, h5 {
+		font-weight: 800;
+	}
+
+	h2 {
+		font-weight: 700;
+	}
+
+	h3 {
+		font-weight: 700;
+		padding: 10px;
+		background-color: #1d1d1b !important;
+		border-bottom: none !important;
+		border-radius: 12px;
+	}
+
+	.section li.activity {
+		border-radius: 6px;
+	}
+
+	.section li.activity:hover {
+		background-color: #332;
+	}
+
+	th, td {
+		/*border-top: #333 dashed 1px !important;*/
+		border-top: none !important;
+		color: #fff;
+	}
+
+	.path-mod-assign td.submissionstatussubmitted, .path-mod-assign td.submissiongraded, .path-mod-assign td.earlysubmission, .path-mod-assign td.submissionnotgraded {
+		color: #fff;
+		background-color: #232;
+		border-radius: 12px;
+		transform: scale(100%, 90%);
+	}
+
+	.path-mod-assign td.submissionnotgraded {
+		background-color: #1b1b1b;
+	}
+}
