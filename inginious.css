@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://inginious.info.ucl.ac.be"), url-prefix("") {
-	/* currently very much unfinished, updates both look of light & dark theme (depending on mediaquery) */
+/* currently very much unfinished, updates both look of light & dark theme (depending on mediaquery) */
 
 	:root {
 		--bg: #fff;
@@ -130,7 +130,7 @@
 			color: #fac !important;
 		}
 
-		.cm-number {
+		.cm-number, .cm-atom {
 			color: #afc !important;
 		}
 	}
