@@ -97,7 +97,7 @@
 	}
 
 	input {
-		background-color: var(--bg) !important;
+		background: var(--bg) !important;
 		border-radius: 12px !important;
 		border: none !important;
 		color: var(--fg) !important;
